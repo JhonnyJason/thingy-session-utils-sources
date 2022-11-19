@@ -54,7 +54,8 @@ sessUtl.sessionKeyBytes( Uint8Array, String || Object ) -> Uint8Array64
 Authentication Codes are generated from an commonly known `seed` - usually the shared Secret from the client and services keypairs, hashed with a commonly known context. The `seed` stays the same for the whole session.
 It should be generated in such a way that it is always different for every session.
 
-The other part is the `request` - which we may pass as string or as object(-> then it will be stringified first).
+The other part is the `request` - which we may pass as string or as object.
+Preferrably use an existing string from somewhere. Usually every request has arrived as string and the conversion is quite costly for the performance.
 
 This request is the last processed request or better said the request body - it must be exactly the same for client and service. You may also take  it as "last processed authenticated data-chunk" for e.g. in Websockets.
 
