@@ -33,20 +33,20 @@ Current Functionality
 import *  as sessUtl from "thingy-session-utils"
 
 ## auth code
-# sessUtl.createAuthCode is sessUtl.authCodeHex
-sessUtl.authCodeHex( seedHex, request ) -> authCodeHex
-sessUtl.authCodeHex( StringHex , String || Object ) -> StringHex64
+# sessUtl.createAuthCode is sessUtl.createAuthCodeHex
+sessUtl.createAuthCodeHex( seedHex, request ) -> authCodeHex
+sessUtl.createAuthCodeHex( StringHex , String || Object ) -> StringHex64
 
-sessUtl.authCodeBytes( seedBytes, request ) -> authCodeHex
-sessUtl.authCodeBytes( Uint8Array , String || Object ) -> Uint8Array32
+sessUtl.createAuthCodeBytes( seedBytes, request ) -> authCodeHex
+sessUtl.createAuthCodeBytes( Uint8Array , String || Object ) -> Uint8Array32
 
 ## session key
-# sessUtl.createSessionKey is sessUtl.sessionKeyHex
-sessUtl.sessionKeyHex( seedHex, request ) -> sessionKeyHex
-sessUtl.sessionKeyHex( StringHex, String || Object ) -> StringHex128
+# sessUtl.createSessionKey is sessUtl.createSessionKeyHex
+sessUtl.createSessionKeyHex( seedHex, request ) -> sessionKeyHex
+sessUtl.createSessionKeyHex( StringHex, String || Object ) -> StringHex128
 
-sessUtl.sessionKeyBytes( seedBytes, request ) -> sessionKeyBytes
-sessUtl.sessionKeyBytes( Uint8Array, String || Object ) -> Uint8Array64
+sessUtl.createSessionKeyBytes( seedBytes, request ) -> sessionKeyBytes
+sessUtl.createSessionKeyBytes( Uint8Array, String || Object ) -> Uint8Array64
 
 ```
 

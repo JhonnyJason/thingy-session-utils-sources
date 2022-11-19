@@ -1,25 +1,25 @@
 {
-  "name": "thingy-session-utils",
-  "version": "0.0.1",
-  "description": "Small utility package for authenticated session between thingies who use the Secret Manager for their accounts.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Lenard Frommelt lenard@frommelt.dev",
-  "license": "Unlicense",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JhonnyJason/secret-manager-crypto-utils.git"
-  },
-  "bugs": {
-    "url": "https://github.com/JhonnyJason/secret-manager-crypto-utils/issues"
-  },
-  "homepage": "https://github.com/JhonnyJason/thingy-session-utils-output#readme",
-  "dependencies": {
-    "secret-manager-crypto-utils": "^0.2.0",
-    "thingy-byte-utils": "0.0.7"
-  },
-  "type": "module"
+    "name": "thingy-session-utils",
+    "version": "0.0.2",
+    "description": "Small utility package for authenticated session between thingies who use the Secret Manager for their accounts.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Lenard Frommelt lenard@frommelt.dev",
+    "license": "Unlicense",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JhonnyJason/secret-manager-crypto-utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/JhonnyJason/secret-manager-crypto-utils/issues"
+    },
+    "homepage": "https://github.com/JhonnyJason/thingy-session-utils-output#readme",
+    "dependencies": {
+        "secret-manager-crypto-utils": "^0.2.0",
+        "thingy-byte-utils": "0.0.7"
+    },
+    "type": "module"
 }
