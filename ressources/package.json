@@ -1,7 +1,7 @@
 {
   "name": "thingy-session-utils",
   "version": "0.0.1",
-  "description": "",
+  "description": "Small utility package for authenticated session between thingies who use the Secret Manager for their accounts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,14 @@
   "license": "Unlicense",
   "repository": {
     "type": "git",
-    "url": "git+https://.git"
+    "url": "git+https://github.com/JhonnyJason/secret-manager-crypto-utils.git"
   },
   "bugs": {
-    "url": "https://"
+    "url": "https://github.com/JhonnyJason/secret-manager-crypto-utils/issues"
   },
-  "homepage": "https://",
-  "dependencies": {},
+  "homepage": "https://github.com/JhonnyJason/thingy-session-utils-output#readme",
+  "dependencies": {
+    "secret-manager-crypto-utils": "^0.2.0"
+  },
   "type": "module"
 }
