@@ -1,4 +1,5 @@
 import { sha256Hex, sha256Bytes, sha512Hex, sha512Bytes } from "secret-manager-crypto-utils"
+import { bytesToHex } from "thingy-byte-utils"
 
 ############################################################
 #region auth code
@@ -16,7 +17,7 @@ export createAuthCodeHex = createAuthCode
 # Byte Version
 export createAuthCodeBytes = (seedBytes, request) ->
     if typeof request != "string" then requestString = JSON.stringify(request)
-    seedHex = tbut.bytesToHex(seedBytes)
+    seedHex = bytesToHex(seedBytes)
     entropySource = seedHex + requestString
     return sha256Bytes(entropySource)
 
@@ -38,7 +39,7 @@ export createSessionKeyHex = createSessionKey
 # Byte Version
 export createSessionKeyBytes = (seedBytes, request) ->
     if typeof request != "string" then requestString = JSON.stringify(request)
-    seedHex = tbut.bytesToHex(seedBytes)
+    seedHex = bytesToHex(seedBytes)
     entropySource = seedHex+requestString
     return sha512Bytes(entropySource)
 
