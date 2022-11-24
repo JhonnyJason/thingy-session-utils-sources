@@ -1,6 +1,6 @@
 {
     "name": "thingy-session-utils",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Small utility package for authenticated session between thingies who use the Secret Manager for their accounts.",
     "main": "index.js",
     "scripts": {
