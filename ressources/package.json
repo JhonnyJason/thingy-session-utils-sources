@@ -1,6 +1,6 @@
 {
     "name": "thingy-session-utils",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Small utility package for authenticated session between thingies who use the Secret Manager for their accounts.",
     "main": "index.js",
     "scripts": {
@@ -18,8 +18,8 @@
     },
     "homepage": "https://github.com/JhonnyJason/thingy-session-utils-output#readme",
     "dependencies": {
-        "secret-manager-crypto-utils": "^0.2.0",
-        "thingy-byte-utils": "0.0.7"
+        "secret-manager-crypto-utils": "^0.3.0",
+        "thingy-byte-utils": "0.0.8"
     },
     "type": "module"
 }
