@@ -11,10 +11,10 @@
     "license": "Unlicense",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/JhonnyJason/secret-manager-crypto-utils.git"
+        "url": "git+https://github.com/JhonnyJason/thingy-session-utils.git"
     },
     "bugs": {
-        "url": "https://github.com/JhonnyJason/secret-manager-crypto-utils/issues"
+        "url": "https://github.com/JhonnyJason/thingy-session-utils/issues"
     },
     "homepage": "https://github.com/JhonnyJason/thingy-session-utils-output#readme",
     "dependencies": {
