@@ -18,7 +18,7 @@
     },
     "homepage": "https://github.com/JhonnyJason/thingy-session-utils-output#readme",
     "dependencies": {
-        "secret-manager-crypto-utils": "^0.3.0",
+        "secret-manager-crypto-utils": "^0.3.1",
         "thingy-byte-utils": "0.0.8"
     },
     "type": "module"

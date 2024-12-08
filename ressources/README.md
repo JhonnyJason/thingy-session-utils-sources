@@ -1,9 +1,11 @@
 # thingy-session-utils 
 
 # Background
-Regarding the [Client Service Authentication](https://hackmd.io/DjnHMT0TSlmffXZTsm4f7A?view) - we thought we should have the helper functions in it's own pacakge as it does not directly fit on adding to the [secret-manager-crypto-utils](https://www.npmjs.com/package/secret-manager-crypto-utils).
+On some time after developing on the [Secret Management](https://hackmd.io/PZjpRfzPSBCqS-8K54x2jA) path the idea to use these same cryptographic primitives (Curve25519 + AES and SHA-2) for all all [Client Service Authentication](https://hackmd.io/DjnHMT0TSlmffXZTsm4f7A?view) become quite stubborn.
 
-Originally we only needed the `authCode` function, however because it easily possible we just added a `sessionKey` function as well.
+This lead to a few ways on how to build Sessions - this convenience library is their implementation.
+
+
 
 # Usage
 
@@ -30,7 +32,7 @@ Current Functionality
 - create SessionKeys
 
 ```coffee
-import *  as sessUtl from "thingy-session-utils"
+import * as sessUtl from "thingy-session-utils"
 
 ## auth code
 # sessUtl.createAuthCode is sessUtl.createAuthCodeHex
